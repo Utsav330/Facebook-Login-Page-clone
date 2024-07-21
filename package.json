@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-by-tailwind",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "npx tailwindcss -i ./Another/project.css -o ./Another/output.css --watch",
+    "build-project": "npx tailwindcss -i ./projects/project.css -o ./projects/output.css --watch",
+    "start": "vite"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  },
+  "dependencies": {
+    "vite": "^5.3.3"
+  }
+}
